@@ -8,7 +8,8 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'checEat',
-      home: HomeView(),
+      theme: ThemeData(primarySwatch: Colors.deepOrange),
+      home: const HomeView(),
     );
   }
 }
